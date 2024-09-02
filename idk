@@ -1,0 +1,6 @@
+    local args = {
+    [1] = "ScytheWeapon"
+}
+
+game:GetService("ReplicatedStorage").Scythe:FireServer(unpack(args))
+end
